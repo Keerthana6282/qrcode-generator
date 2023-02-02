@@ -1,0 +1,4 @@
+import segno
+
+qrcode = segno.make("Padikkam.Py")
+qrcode.save("Padikkam.png",border=4,scale=20,dark='#0000ffcc')
